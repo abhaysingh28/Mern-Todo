@@ -14,7 +14,7 @@ require("./Config/database").databaseconnection();
 
 app.use(
   cors({
-    origin: ["http://localhost:3000", "https://meet.google.com/vyb-xgbc-ncb"],
+    origin: ["http://localhost:3000", "https://mern-todo-black.vercel.app"],
     credentials: true,
   })
 );
