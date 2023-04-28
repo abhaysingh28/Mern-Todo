@@ -1,0 +1,31 @@
+.navbar{
+    background-color: #e4f8ff;
+    color: #000000;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+.navbar h1{
+    font-size: 16px;
+    margin-left: 2%;
+    font-family: sans-serif;
+    font-weight: 100;
+    cursor: pointer;
+}
+.navbar h2{
+    font-size: 20px;
+    margin-left: 2%;
+    font-family: monospace;
+    cursor: pointer;
+    color: #000000;
+}
+.navbar a{
+    text-decoration: none;
+
+}
