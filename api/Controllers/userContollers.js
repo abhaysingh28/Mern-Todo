@@ -44,9 +44,6 @@ exports.signin = async (req, res, next) => {
             sendToken(user, req, res, 200);
             return;
         }
-        // const newUser = new userModel(req.body);
-        // user = await newUser.save();
-        // console.log("created");
         sendToken(user, req, res, 200);
     } catch (error) {
         res.status(501).json({ message: error.message });
